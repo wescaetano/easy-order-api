@@ -3,7 +3,6 @@ package github.wescaetano.first_spring_boot_project.services;
 import github.wescaetano.first_spring_boot_project.entities.User;
 import github.wescaetano.first_spring_boot_project.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
