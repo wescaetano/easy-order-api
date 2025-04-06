@@ -1,8 +1,10 @@
 package github.wescaetano.first_spring_boot_project.config;
 
+import github.wescaetano.first_spring_boot_project.entities.Category;
 import github.wescaetano.first_spring_boot_project.entities.Order;
 import github.wescaetano.first_spring_boot_project.entities.User;
 import github.wescaetano.first_spring_boot_project.entities.enums.OrderStatus;
+import github.wescaetano.first_spring_boot_project.repositories.CategoryRepository;
 import github.wescaetano.first_spring_boot_project.repositories.OrderRepository;
 import github.wescaetano.first_spring_boot_project.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,8 +25,18 @@ public class TestConfig implements CommandLineRunner {
     @Autowired
     private OrderRepository orderRepository;
 
+    @Autowired
+    private CategoryRepository CategoryRepository;
+
     @Override
     public void run(String... args) throws Exception {
+
+        Category cat1 = new Category(null, "Electronics");
+        Category cat2 = new Category(null, "Books");
+        Category cat3 = new Category(null, "Computers");
+
+        CategoryRepository.saveAll(Arrays.asList(cat1, cat2, cat3));
+
         User u1 = new User(null, "Maria Brown", "maria@gmail.com", "988888888", "123456");
         User u2 = new User(null, "Alex Green", "alex@gmail.com", "977777777", "123456");
 
