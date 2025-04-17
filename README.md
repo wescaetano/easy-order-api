@@ -8,7 +8,7 @@ O sistema é composto por três entidades principais: Usuários, Produtos e Pedi
 
 - [Tecnologias](#tecnologias)  
 - [Funcionalidades](#funcionalidades)  
-- [Instância de Domínio](#instância-de-dominio)
+- [Instância de Domínio](#instância-de-domínio)
 - [Camadas Lógicas](#camadas-lógicas)
 - [Como rodar esse projeto na sua máquina](#como-rodar-esse-projeto-na-sua-máquina)  
 - [Clonando o repositório](#clonando-o-repositório)  
