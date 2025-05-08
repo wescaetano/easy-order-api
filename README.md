@@ -61,8 +61,7 @@ O sistema é composto por três entidades principais: Usuários, Produtos e Pedi
 <img src="https://raw.githubusercontent.com/wescaetano/first-springboot-project/main/assets/domain_instance.png" alt="First page" height="50%">
 
 ## Camadas Lógicas
-
-<img src="https://github.com/wescaetano/first-springboot-project/blob/main/assets/logical_layers.png" alt="First page" height="50%">
+<img src="https://raw.githubusercontent.com/wescaetano/first-springboot-project/main/assets/logical_layers.png" alt="First page" height="50%">
 
 ## Como rodar este projeto na sua máquina
 Pré-requisitos
