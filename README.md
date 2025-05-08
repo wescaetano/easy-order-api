@@ -58,9 +58,7 @@ O sistema é composto por três entidades principais: Usuários, Produtos e Pedi
   - Deletar pedido por ID
 
 ## Instância de Domínio
-
-
-<img src="https://github.com/wescaetano/first-springboot-project/blob/main/assets/domain_instance.png" alt="First page" height="50%">
+<img src="https://raw.githubusercontent.com/wescaetano/first-springboot-project/main/assets/domain_instance.png" alt="First page" height="50%">
 
 ## Camadas Lógicas
 
